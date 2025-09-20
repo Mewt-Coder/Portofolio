@@ -1,0 +1,224 @@
+body {
+  position: relative;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  padding: 10px;
+  bottom: -30px;
+  overflow-x: hidden;
+}
+
+/* desain index*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.atas {
+  position: relative;
+}
+.foto {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  top: 120px;
+  right: 300px;
+  border: 3px solid #00ffff;
+  box-shadow: 0 0 15px #00ffff;
+}
+
+.text {
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  color: aqua;
+  right: -200px;
+  top: 150px;
+  margin: 0;
+  line-height: 1.2;
+}
+.text h3 {
+  font-family: 'Lato';
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.text h1 {
+  font-family: 'Poppins';
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  margin-top: -5px;
+}
+
+h3 {
+  display: flex;
+  color: aqua;
+  margin-top: -40px;
+  font-family: 'Poppins';
+}
+
+.navbar a {
+  display: flex;
+  font-family: 'Lato';
+  margin-left: 10px;
+  color: aqua;
+  margin-top: -60px;
+  padding-right: 15px;
+  text-decoration: none;
+  margin-bottom: -50px;
+  color: white;
+}
+.navbar a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: aqua;
+}
+
+a i {
+  color: black;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.navbar a.ikon-github:hover {
+  text-decoration: none;
+}
+/* desain about*/
+
+.kotak-about {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  height: 300px;
+  gap: 40px;
+  border-radius: 5px;
+  border: 2px solid aqua;
+  margin-top: 60px;
+  background: rgba(255, 255, 255, 0.15);
+  align-items: center;
+}
+
+.foto-about {
+  display: block;
+  position: relative;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  left: 10px;
+}
+
+.kotak-about h3 {
+  position: relative;
+  right: -40px;
+  top: -10px;
+  font-family: 'Poppins';
+  text-align: center;
+}
+
+.about-right {
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.about-right p {
+  position: relative;
+  font-family: 'Poppins';
+  font-size: 17px;
+  color: #cce7ff;
+  text-align: justify;
+  top: -10px;
+}
+
+.kotak-skill {
+  margin-top: 40px;
+  padding: 40px;
+}
+
+.kotak-skill h3 {
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+.skill-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;             
+}
+
+.skill-box {
+  border: 1px solid aqua; 
+  border-radius: 10px;
+  padding: 15px;
+  width: 120px;           
+  text-align: center;     
+  transition: transform 0.3s ease;
+  color: #fff;   
+  font-weight: 600;
+}
+
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+
+.skill-box:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  color: aqua;
+}
+
+/* desain project */
+
+.kotak-project{
+  text-align: center;
+  margin-top: 80px;
+}
+
+.kotak-project h3{
+  color: aqua;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.project-container{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-box{
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px sollid aqua;
+  border-radius: 15px;
+  width: 250px;
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.project-box:hover {
+  transform: translateY(-10px) scale(1.05); 
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);   
+}
+
+.project-img {
+  width: 100%;        
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.project-box h4{
+  color: aqua;
+  margin: 10px 0;
+}
